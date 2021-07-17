@@ -251,7 +251,7 @@ async def upload_log_file(client, message):
         await message.reply_document("TorrentLeech.txt")
         
 async def help_message_f(client, message):
-    aria_i_p = await aria_start()
+#    aria_i_p = await aria_start()
     
     msg = ("""📖 Help
     
