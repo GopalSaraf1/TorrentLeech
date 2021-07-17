@@ -32,16 +32,16 @@ async def upload_as_video(client, message):
     
     
 async def status_message_f(client, message):
-'''    aria_i_p = await aria_start()
+    aria_i_p = await aria_start()
     # Show All Downloads
     downloads = aria_i_p.get_downloads()
     #
     DOWNLOAD_ICON = "📥"
     UPLOAD_ICON = "📤"
     #
-'''
+
     msg = ""
-'''    for download in downloads:
+    for download in downloads:
         downloading_dir_name = "NA"
         try:
             downloading_dir_name = str(download.name)
@@ -78,7 +78,7 @@ async def status_message_f(client, message):
         if msg == "":
             msg = "🤷‍♂️ No Active, Queued or Paused TORRENTs"
 
-   '''
+   
     
     hr, mi, se = up_time(time.time() - BOT_START_TIME)
     total, used, free = shutil.disk_usage(".")
