@@ -32,7 +32,7 @@ async def upload_as_video(client, message):
     
     
 async def status_message_f(client, message):
-    aria_i_p = await aria_start()
+#    aria_i_p = await aria_start()
     # Show All Downloads
     downloads = aria_i_p.get_downloads()
     #
